@@ -4,7 +4,7 @@ import student2 from '../assets/student2.jpg';
 import  student3 from '../assets/student3.jpeg';
 import student4 from '../assets/student4.jpg';
 
-export const Result = () => {
+const Result = () => {
   const slides = [
     {
       id: 1,
@@ -80,4 +80,6 @@ export const Result = () => {
       </div>
     </div>
   );
-};
+}
+
+export default Result

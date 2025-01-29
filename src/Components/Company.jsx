@@ -7,7 +7,7 @@ import metaicon from "../assets/meta.jpeg";
 import cisconicon from "../assets/cicso.png";
 import adobeicon from "../assets/adobe.png";
 
-export const Company = () => {
+const Company = () => {
   const companyData = [
     {
       id: 1,
@@ -69,4 +69,6 @@ export const Company = () => {
   
     </div>
   );
-};
+}
+
+export default Company
